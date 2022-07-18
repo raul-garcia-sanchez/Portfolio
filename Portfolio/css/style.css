@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    position: fixed;
+}
+
+#header-img{
+    width: 150px;
+    margin-left: 100px;
+    background-image: none;
+}
+
+#nav-bar{
+    display: flex;
+    margin-right: 100px;
+}
+
+.nav-link{
+    margin: auto 40px auto 60px;
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.principal{
+    height: 100vh;
+    position: relative;
+}
+
+.principal::before{
+    content: "";
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    filter: brightness(10%);
+}
+
+a:hover{
+    color: white;
+}
+
+.presentation{
+    position: absolute;
+    top: 35vh;
+    left: 31%;
+}
+
+#fotoPersonal{
+    width: 250px;
+    height: 300px;
+    border-radius: 200px;
+    float: left;
+}
+
+.textPresentation{
+    position: absolute;
+    top: 44vh;
+    left: 46%;
+}
+
+.textNormal{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.title{
+    color: dodgerblue;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
