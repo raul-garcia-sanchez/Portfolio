@@ -87,3 +87,45 @@ a:hover{
     margin-bottom: 7px;
 }
 
+.about{
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subTitle{
+    margin-top: 30px;
+}
+
+.textAboutMe{
+    margin-top: 30px;
+    line-height: 2.5em;
+}
+
+#downloadCV{
+    width: 170px;
+    background-color: dodgerblue;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#downloadCV:hover{
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+}
+
+.subTitleException{
+    margin-top: 60px;
+}
+
+//inetntar hacer slider con fotos skills
+
+
+
