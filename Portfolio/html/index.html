@@ -1,72 +1,124 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Raul Garcia / Web Developer</title>
     <link rel="stylesheet" href="../css/style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
+
     <div class="principal">
-      <header>
-        <div class="logo">
-          <img id="header-img" src="../img/logo2.png" alt="Logo Raul Garcia" />
+        <header>
+            <div class="logo">
+                <img id="header-img" src="../img/logo2.png" alt="Logo Raul Garcia" />
+            </div>
+            <nav id="nav-bar">
+                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#services">Services</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </nav>
+        </header>
+        <div class="presentation">
+            <img id="fotoPersonal" src="../img/raul2.jpg" alt="Foto Raul" />
         </div>
-        <nav id="nav-bar">
-          <a class="nav-link" href="#home">Home</a>
-          <a class="nav-link" href="#about">About</a>
-          <a class="nav-link" href="#services">Services</a>
-          <a class="nav-link" href="#portfolio">Portfolio</a>
-          <a class="nav-link" href="#contact">Contact</a>
-        </nav>
-      </header>
-      <div class="presentation">
-        <img id="fotoPersonal" src="../img/raul2.jpg" alt="Foto Raul" />
-      </div>
-      <div class="textPresentation">
-        <p class="textNormal">Hi!</p>
-        <h1 class="title">I'm Raúl García Sánchez</h1>
-        <p class="textNormal">Web Developer</p>
-      </div>
+        <div class="textPresentation">
+            <p class="textNormal">Hi!</p>
+            <h1 class="title">I'm Raúl García Sánchez</h1>
+            <p class="textNormal">Web Developer</p>
+        </div>
     </div>
+
     <div class="about">
-      <div style="width: 30%;">
-        <h1>About</h1>
-        <h3 class="subTitle">Who am I?</h3>
-        <h3 class="subTitle">I'm Raúl García, Web Developer</h3>
-        <p class="textAboutMe">
-          I am Raúl García, I am a web developer with excellent communication
-          skills. I love collaborating and working as a team, I am looking for a
-          part time position in web development, where I can apply my knowledge
-          and skills to continue improving.
-        </p>
-        <a
-          href="https://drive.google.com/file/d/1i1QeqEHyU34kcYyb7zC0Y7awz_MI2KMF/view"
-        >
-          <button id="downloadCV">
-            <i class="fa fa-download"></i>
-            Download CV
-          </button>
-        </a>
-      </div>
-      <div class="slider">
-        <h3 class="subTitleException">My skills:</h3>
-      <ul>
-        <li><img class="skill" src="../img/html5.png" alt="HTML"></li>
-        <li><img class="skill" src="../img/css3.png" alt="CSS"></li>
-        <li><img class="skill" src="../img/js.png" alt="JS"></li>
-        <li><img class="skill" src="../img/php.png" alt="PHP"></li>
-        <li> <img class="skill" src="../img/java.png" alt="JAVA"></li>
-        <li> <img class="skill" src="../img/py.png" alt="PYTHON"></li>
-        <li><img class="skill" src="../img/angular300.png" alt="ANGULAR"></li>
-        <li><img class="skill" src="../img/sql.png" alt="SQL"></li>
-        <li><img class="skill" src="../img/mongo.png" alt="MONGO"></li>
-      </ul>
+        <div style="width: 30%;">
+            <h1>About</h1>
+            <h3 class="subTitle">Who am I?</h3>
+            <h3 class="subTitle">I'm Raúl García, Web Developer</h3>
+            <p class="textAboutMe">
+                I am Raúl García, I am a web developer with excellent communication
+                skills. I love collaborating and working as a team, I am looking for a
+                part time position in web development, where I can apply my knowledge
+                and skills to continue improving.
+            </p>
+            <a href="https://drive.google.com/file/d/1i1QeqEHyU34kcYyb7zC0Y7awz_MI2KMF/view">
+                <button id="downloadCV">
+                    <i class="fa fa-download"></i>
+                    Download CV
+                </button>
+            </a>
+        </div>
+
+
+
+        <div class="slideshow-container">
+
+            <h3 class="subTitleException">My skills:</h3>
+
+            <br>
+            
+            <div class="mySlides fade">
+                <img src="../img/angular300.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../img/css3.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../img/html5.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../img/java.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../img/js.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../img/mongo.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../img/sql.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../img/php.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../img/py.png" style="width:100%">
+            </div>
+            
+            <br>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+        </div>
+
+        
     </div>
-  </body>
+    <script src="../js/index.js"></script>
+
+</body>
+
 </html>

@@ -29,6 +29,7 @@ header{
     color: grey;
     text-decoration: none;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .principal{
@@ -49,6 +50,7 @@ header{
 }
 
 a:hover{
+    cursor: pointer;
     color: white;
 }
 
@@ -105,27 +107,93 @@ a:hover{
 }
 
 #downloadCV{
-    width: 170px;
+    width: 200px;
     background-color: dodgerblue;
-    height: 35px;
+    height: 50px;
     color: white;
     font-weight: bold;
     border: 0;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 #downloadCV:hover{
-    width: 200px;
+    transition: 3s;
+    width: 100%;
     height: 50px;
-    font-size: 14px;
 }
 
-.subTitleException{
-    margin-top: 60px;
+.subTitleException {
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin: 10px;
+    color: black;
 }
 
-//inetntar hacer slider con fotos skills
+.mySlides {display: none;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container img {
+    margin-top: 85px;
+    height: 200px;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+  
+
+
 
 
 
